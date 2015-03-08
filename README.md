@@ -19,13 +19,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require uran1980/yii2-igrowl "dev-master"
+php composer.phar require uran1980/yii2-igrowl-widget "dev-master"
 ```
 
 or add
 
 ```
-"uran1980/yii2-igrowl": "dev-master"
+"uran1980/yii2-igrowl-widget": "dev-master"
 ```
 
 to the require section of your ```composer.json```
@@ -42,7 +42,7 @@ To activate this widget add this line to you view or layout:
 Available options: **theme**, for example:
 
 ```php
-<?php echo uran1980\yii\widgets\pace\Pace::widget([
+<?php echo uran1980\yii\widgets\igrowl\Igrowl::widget([
     'theme' => 'steadysets',
 ]); ?>
 ```
