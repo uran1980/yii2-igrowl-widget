@@ -12,7 +12,7 @@ class Igrowl extends \yii\base\Widget
     public function run()
     {
         $view = $this->getView();
-        $bundle = PaceAsset::register($view);
+        $bundle = IgrowlAsset::register($view);
         $bundle->css = [
             'iGrowl/dist/css/igrowl.min.css',
             "iGrowl/dist/css/fonts/{$this->theme}.css",
